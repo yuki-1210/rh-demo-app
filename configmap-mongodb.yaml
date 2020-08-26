@@ -2,11 +2,7 @@
 apiVersion: v1
 metadata:
   name: mongodb
-  namespace: rh-test-db
-  selfLink: /api/v1/namespaces/rh-test-db/configmaps/mongodb
-  uid: c322e3f9-8ab7-4b49-81fc-43df93886659
-  resourceVersion: '268038744'
-  creationTimestamp: '2020-07-08T05:42:27Z'
+#  namespace: rh-test-db
 data:
   MONGODB_OCP_ADDER: monogdb001
   MONGODB_OCP_COLL: lifelog
